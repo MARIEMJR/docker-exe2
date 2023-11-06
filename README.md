@@ -8,3 +8,6 @@
 `docker history tomcat:v1 `
 
 * Faire un docker run pour creer un container a partir de l'image tomcat:v1, en background, avec le mapping de port 30200
+
+  `docker run -d -p 30200:8080 tomcat:v1`
+  
